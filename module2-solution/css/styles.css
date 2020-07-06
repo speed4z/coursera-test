@@ -1,14 +1,12 @@
    /*Border sizing*/
     * {      
-      box-sizing: border-box;    
-      margin:0;
-      padding:0;
-    }
-    body{
-      width: initial;
-      padding: 0;
+      box-sizing: border-box; 
     }
     
+    body {
+      font-family: sans-serif;
+    }
+
     /*Simple Responsive Framework.*/
     .row {
       width: 100%;
@@ -154,71 +152,47 @@
       margin: 30px 10px 30px 10px;;      
     }
 
-   
-    p {      
-      font-family: Helvetica, sans-serif;
-      font-size: 18px;
-    }
+    p {
+      display: block;
+      margin-block-start: 1em;
+      margin-block-end: 1em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+  }
 
-    .container {
-      width:100%;
-      padding: 30px;
-    }
-
-
-    #box {      
-      width:90%;
-      float: left;
-      align-self: center;
-      background-color: skyblue; 
+    .box {          
+      background-color: gray; 
       border: 1px solid black;  
-      font-size: 18px;   
-      height: 300px;
-      margin:20px ;
-      padding: 50px 15px 15px 15px;
+      font-size: 17px;
+      margin:10px ;
       color:black;
-      position: relative;
       overflow: hidden;
     }
 
+    .paragraph {
+      margin: 10px;
+      color: black;
+      clear: both;
+    }
 
+    .title {
+      width: 116px;
+    float: right;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 1.25em;
+    float: right;
+    }
 
-    #title1 {
-      text-align: center;
-      border: 1px solid black;
+    #beef {    
       background-color: red;
       color: white;
-      font-style: italic;
-      font-weight: 600;
-      width:175px;
-      height:25px;
-      position: absolute;
-      top:0;
-      right:0;
     }
-    #title2 {
-      text-align: center;
-      border: 1px solid black;
+    #chicken {
       background-color: lightgreen;
-      color:darkmagenta;
-      font-style: italic;
-      font-weight: 600;
-      width:175px;
-      height:25px;
-      position: absolute;
-      top:0;
-      right:0;
+      color:darkmagenta;     
     }
-    #title3 {
-      text-align: center;
-      border: 1px solid black;
+    #sushi {            
       background-color: yellow;
-      color:darkslategrey;
-      font-style: italic;
-      font-weight: 600;
-      width:175px;
-      height:25px;
-      position:  absolute;
-      top:0;
-      right:0;
+      color:darkslategrey;      
     }

@@ -1,2 +1,2 @@
-sayhello();
-sayhi();
+// sayhello();
+// sayhi();

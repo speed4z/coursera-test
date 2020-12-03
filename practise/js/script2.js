@@ -1,15 +1,15 @@
 
-//Immediately Invoked Function Expression
+// //Immediately Invoked Function Expression
 
-(function (window){
+// (function (window){
 
  
-    var name = "John";
-    var greeting = "Hi ";
-    sayhi = function(){
-        console.log(greeting + name);
-    };
+//     var name = "John";
+//     var greeting = "Hi ";
+//     sayhi = function(){
+//         console.log(greeting + name);
+//     };
     
-})(window);
+// })(window);
     
     
